@@ -40,7 +40,8 @@ export default {
 <style scoped>
 .user-box {
   background: #f8f8f8;
-  padding: 10px 10vw;
+  padding: 10px;
+  width: 300px;
   margin: 5px;
   border: 1px #ccc solid;
 }
