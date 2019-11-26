@@ -9,7 +9,7 @@
 <script>
 import UserList from "./UserList";
 import CreateUser from "./CreateUser.vue";
-import axios from "axios";
+// import axios from "axios";
 
 export default {
   name: "Home",
@@ -32,12 +32,12 @@ export default {
     };
   },
   created() {
-    axios
+    /* axios
       .get("https://jsonplaceholder.typicode.com/users")
       // eslint-disable-next-line no-console
       .then(response => {
         this.users = response.data;
-      });
+      }); */
   },
   methods: {
     createUser(newUser) {
